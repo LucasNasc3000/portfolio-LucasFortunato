@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    top: -7px;
+    left: -6px;
+    background-color: rgb(57, 58, 58);
+    height: 90px;
+    width: 1276px;
+    justify-content: center;
+}
+
+.menu-components {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin-right: 140px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu-home {
+    position: relative;
+    left: -180px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 450px;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 68px;
+    border-bottom: 2px solid rgb(245, 245, 245);
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    color: rgb(245, 245, 245);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 550px;
+    align-items: center;
+}
+
+.external-link {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+.external-link:hover {
+    color: rgb(116, 116, 116)
+}
+
+.devicon-github-original {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    height: 180px;
+    width: 80px;
+}
+
+li a {
+    text-decoration: none; 
+    color: rgb(245, 245, 245);
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+li a:hover {
+    color: rgb(116, 116, 116);
+}

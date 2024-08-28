@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(27, 27, 27);
+    overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    top: -7px;
+    left: -6px;
+    background-color: rgb(57, 58, 58);
+    height: 90px;
+    width: 1276px;
+    justify-content: center;
+}
+
+.menu-components {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin-right: 140px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu-home {
+    position: relative;
+    left: -180px;
+}
+
+.superior-course-space {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 15px;
+    justify-content: space-between;
+    background-color: black
+}
+
+.superior-course {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 400px;
+    color: rgb(245, 245, 245);
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54px;
+    border-bottom: 2px solid rgb(245, 245, 245);
+}
+
+.superior-course-specifics {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    color: rgb(245, 245, 245);
+    margin-top: -290px;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+}
+
+
+li a {
+    text-decoration: none; 
+    color: rgb(245, 245, 245);
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+li a:hover {
+    color: rgb(116, 116, 116);
+}
+
+/*
+Criar um arquivo só para configurações gerais
+*\
