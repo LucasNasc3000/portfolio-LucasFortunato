@@ -37,7 +37,6 @@ body {
     margin-top: 40px;
     margin-left: 15px;
     justify-content: space-between;
-    background-color: black
 }
 
 .superior-course {
@@ -46,7 +45,7 @@ body {
     padding: 10px;
     margin-bottom: 400px;
     color: rgb(245, 245, 245);
-    margin-top: 10px;
+    margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 54px;
     border-bottom: 2px solid rgb(245, 245, 245);
@@ -55,12 +54,57 @@ body {
 .superior-course-specifics {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    justify-content: space-between;
     color: rgb(245, 245, 245);
-    margin-top: -290px;
-    width: 300px;
-    height: 200px;
+    margin-top: -390px;
+    margin-left: 5px;
+    width: fit-content;
+    height: fit-content;
     list-style-type: none;
+}
+
+.technical-course {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: rgb(245, 245, 245);
+    margin-bottom: -100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54px;
+    border-bottom: 2px solid rgb(245, 245, 245);
+}
+
+.technical-course-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(245, 245, 245);
+    margin-top: 110px;
+    margin-left: 15px;
+    height: 400px;
+    width: 500px;
+    list-style-type: none;
+}
+
+.technical-course-specifics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(245, 245, 245);
+    margin-top: 160px;
+    margin-left: 5px;
+    width: fit-content;
+    height: fit-content;
+    list-style-type: none;
+}
+
+
+.sc-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    height: 40px;
 }
 
 
