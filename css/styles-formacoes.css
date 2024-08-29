@@ -1,34 +1,3 @@
-body {
-    background-color: rgb(27, 27, 27);
-    overflow-x: hidden;
-}
-
-.menu {
-    display: flex;
-    position: relative;
-    top: -7px;
-    left: -6px;
-    background-color: rgb(57, 58, 58);
-    height: 90px;
-    width: 1276px;
-    justify-content: center;
-}
-
-.menu-components {
-    display: flex;
-    flex-direction: row;
-    width: 700px;
-    margin-right: 140px;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-}
-
-.menu-home {
-    position: relative;
-    left: -180px;
-}
-
 .superior-course-space {
     display: flex;
     flex-direction: column;
@@ -99,6 +68,41 @@ body {
     list-style-type: none;
 }
 
+.languages {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: rgb(245, 245, 245);
+    margin-bottom: -100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54px;
+    border-bottom: 2px solid rgb(245, 245, 245);
+}
+
+.languages-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(245, 245, 245);
+    margin-top: 110px;
+    margin-left: 15px;
+    height: 400px;
+    width: 500px;
+    list-style-type: none;
+}
+
+.languages-specifics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(245, 245, 245);
+    margin-bottom: 110px;
+    margin-left: 5px;
+    width: fit-content;
+    height: fit-content;
+    list-style-type: none;
+}
 
 .sc-data {
     display: flex;

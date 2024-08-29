@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 20px;
+    height: fit-content;
+    width: fit-content;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.about-text {
+    color: rgb(245, 245, 245);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-personal {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 20px;
+    height: fit-content;
+    width: fit-content;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.about-personal-text {
+    color: rgb(245, 245, 245);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
