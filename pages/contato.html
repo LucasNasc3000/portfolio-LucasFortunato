@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/commom.css">
+    <link rel="stylesheet" href="../css/commom.css">
+    <link rel="stylesheet" href="../css/styles-contato.css">
     <title>Portfolio</title>
 </head>
 <body>
     <nav class="menu">
         <ul class="menu-components"> 
-            <li><a class="menu-home" href="index.html">Home</a></li> 
+            <li><a class="menu-home" href="../index.html">Home</a></li> 
             <li><a class="menu-links" href="formacoes.html">Formações</a></li> 
             <li><a class="menu-links" href="sobre-mim.html">Sobre mim</a></li> 
             <li><a class="menu-links" href="contato.html">Contato</a></li> 
         </ul>
     </nav>
+
+    <form action="/js/form.js" class="form">
+        <input type="text" class="name" placeholder="Nome" />
+        <input type="text" class="email" placeholder="Email do remetente" />
+        <input type="text" class="message" placeholder="Mensagem" />
+        <button class="btn">Enviar</button>
+    </form>
 </body>
 </html>
